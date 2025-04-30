@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%; 
+    min-height: 100vh;
+    background: url(images/Quiz\ background\ ans\ seamless.jpg);
+}
+
+.quiz-app-container{
+    width: 450px; 
+    background-color: #77759B;
+    padding: 25px; 
+    margin: 50px auto 0;
+    border-radius: 10px;
+    color: #F9FBF4;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.title hr {
+    margin-left: 10px;
+    width: 378px;
+}
+
+.question-container h1 {
+    font-size: 16px;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.answer-container {
+    margin-top: 5px;
+}
+
+.answer-container p{
+    border: 1px solid #AFAFC0;
+    padding: 10px; 
+    margin: 10px; 
+    cursor: pointer;
+}
+
+.highlight p:hover{
+    background-color: #AFAFC0;
+}
+
+.btn-container{
+    align-self: center;
+}
+
+.btn-container button{
+    padding: 5px 40px;
+    background-color: #F9FBF4; 
+    color: #77759B; 
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-container button:hover{
+    background-color: #AFAFC0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.correct{
+    background-color: green;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.no-access, .no-access p{
+    cursor: not-allowed;
+}
+
+.more-margin{
+    margin-top: 20px; 
+}
+
+.absolute{
+    position: absolute;
+}
